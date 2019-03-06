@@ -26,7 +26,7 @@ class RRT():
      a1=(math.sqrt((ar.x-self.nlist[nin1].x)**2+(ar.y-self.nlist[nin1].y)**2))
      c=1
      while k<=self.r:
-       if (ar.x-self.nlist[nin1].x)**2+(ar.y-self.nlist[nin1].y)**2)==0:
+       if ((ar.x-self.nlist[nin1].x)**2+(ar.y-self.nlist[nin1].y)**2)==0:
          continue
        p=float(self.nlist[nin1].x)+float((ar.x-self.nlist[nin1].x)*k/((math.sqrt((ar.x-self.nlist[nin1].x)**2+(ar.y-self.nlist[nin1].y)**2))))
       
